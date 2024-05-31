@@ -20,3 +20,4 @@ cd tempdir
 docker build -t sampleapp .
 docker run -t -d -p 6060:6060 --name samplerunning sampleapp
 docker ps -a 
+
